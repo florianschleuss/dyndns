@@ -1,0 +1,4 @@
+DOMAIN="mydomain.com"
+USERNAME="my.mail@mail.com"
+PASSWORD="mySecretPassword"
+SUBDOMAINS="api, subdoamin2, "
